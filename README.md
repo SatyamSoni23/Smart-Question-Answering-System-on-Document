@@ -23,3 +23,10 @@ It's Smart-Question Answering System on short as well as long documents. It can 
 - https://ieeexplore.ieee.org/abstract/document/9079274
 - https://arxiv.org/pdf/1707.07328.pdf
 - https://arxiv.org/pdf/1810.04805.pdf
+
+## Deployment
+![alt text](https://github.com/SatyamSoni23/Smart-Question-Answering-System-on-Document/blob/main/Screenshots/1.JPG)
+![alt text](https://github.com/SatyamSoni23/Smart-Question-Answering-System-on-Document/blob/main/Screenshots/2.JPG)
+![alt text](https://github.com/SatyamSoni23/Smart-Question-Answering-System-on-Document/blob/main/Screenshots/3.JPG)
+![alt text](https://github.com/SatyamSoni23/Smart-Question-Answering-System-on-Document/blob/main/Screenshots/4.JPG)
+![alt text](https://github.com/SatyamSoni23/Smart-Question-Answering-System-on-Document/blob/main/Screenshots/5.JPG)
