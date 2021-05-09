@@ -25,8 +25,13 @@ It's Smart-Question Answering System on short as well as long documents. It can 
 - https://arxiv.org/pdf/1810.04805.pdf
 
 ## Deployment
+- Method Selection
 ![alt text](https://github.com/SatyamSoni23/Smart-Question-Answering-System-on-Document/blob/main/Screenshots/1.JPG)
+- File Uploading
 ![alt text](https://github.com/SatyamSoni23/Smart-Question-Answering-System-on-Document/blob/main/Screenshots/2.JPG)
+- Ask Question
 ![alt text](https://github.com/SatyamSoni23/Smart-Question-Answering-System-on-Document/blob/main/Screenshots/3.JPG)
+- Processing Answer Using BERT
 ![alt text](https://github.com/SatyamSoni23/Smart-Question-Answering-System-on-Document/blob/main/Screenshots/4.JPG)
+- Processing Answer Using Fine-tuning BERT
 ![alt text](https://github.com/SatyamSoni23/Smart-Question-Answering-System-on-Document/blob/main/Screenshots/5.JPG)
