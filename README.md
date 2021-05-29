@@ -23,3 +23,23 @@ It's Smart-Question Answering System on short as well as long documents. It can 
 - https://ieeexplore.ieee.org/abstract/document/9079274
 - https://arxiv.org/pdf/1707.07328.pdf
 - https://arxiv.org/pdf/1810.04805.pdf
+- https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf
+- https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html
+- https://nlp.seas.harvard.edu/2018/04/03/attention.html
+- http://jalammar.github.io/illustrated-transformer/
+- http://jalammar.github.io/illustrated-bert/
+- https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/
+- https://www.coursera.org/learn/nlp-sequence-models
+- https://www.youtube.com/playlist?list=PLam9sigHPGwOBuH4_4fr-XvDbe5uneaf6
+
+## Deployment
+- ### Method Selection
+![alt text](https://github.com/SatyamSoni23/Smart-Question-Answering-System-on-Document/blob/main/Screenshots/1.JPG)
+- ### File Uploading
+![alt text](https://github.com/SatyamSoni23/Smart-Question-Answering-System-on-Document/blob/main/Screenshots/2.JPG)
+- ### Ask Question
+![alt text](https://github.com/SatyamSoni23/Smart-Question-Answering-System-on-Document/blob/main/Screenshots/3.JPG)
+- ### Processing Answer Using BERT
+![alt text](https://github.com/SatyamSoni23/Smart-Question-Answering-System-on-Document/blob/main/Screenshots/4.JPG)
+- ### Processing Answer Using Fine-tuning BERT
+![alt text](https://github.com/SatyamSoni23/Smart-Question-Answering-System-on-Document/blob/main/Screenshots/5.JPG)
