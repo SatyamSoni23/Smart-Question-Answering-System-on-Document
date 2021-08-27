@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: Helvetica, sans-serif;background: #353535; margin: 0px;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+button[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.head{
+	background: #eeeeee;
+	position:relative;
+    text-align:center;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	margin-bottom: 20px;
+}
+.head h1{
+	color: #000000;
+	font-size: 60px;
+	font-family:Bahnschrift SemiBold;
+	margin:auto;
+    vertical-align:middle;
+}
+
+.head p{
+	color: #353535;
+	font-family:Bahnschrift;
+	margin:auto;
+    vertical-align:middle;
+}
+.head a{
+	text-decoration: none;
+	color: #534bae;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #222222;
+}
+
+.topnav a {
+  float: left;
+  color: #cccccc;
+  margin: auto;
+  padding: 15px;
+  margin-left: 200px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  color: #ffffff;
+}
+
+.topnav a.active {
+  font-size: 18px;
+  text-align: center;
+  font-family:Bahnschrift;
+}
+
+.topnav a.active:hover {
+  color: #ffffff;
+}
+
+.topnav-right {
+  float: right;
+  font-size: 14px;
+  text-align: center;
+  margin-right: 200px;
+  font-family:Bahnschrift;
+}
+
+footer p{
+	text-align: center;
+	color: #ffffff;
+	font-family:Bahnschrift;
+}
+footer a{
+	text-decoration: none;
+	color: #534bae;
+}
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a class="active" href="#home">IIITKOTA</a>
+  <div class="topnav-right">
+    <a href="#search">Reference Paper</a>
+  </div>
+</div>
+<div class="head">
+    <h1>Smart Question Answering System</h1>
+    <p style="color:#888">Made By <a href="#">Group G7</a></p>
+</div>
+<div class="container">
+  <form action="/" method="POST">
+    <label for="fname">Question</label>
+    <input type="text" id="fname" name="question" placeholder="Enter Question.." value = "{{question}}">
+    <button type="submit" class="btn-primary" name = 'btn' value = 'qa'>Submit</button>
+  </form>
+  <br>
+    <label for="subject">Answer</label>
+    <textarea readonly id="subject" name="answer" placeholder="Processing..." style="height:200px">{{answer}}</textarea>
+</div>
+	<footer>
+    <hr  style="margin-top:20px; margin-left: 100px; margin-right: 100px;" />
+    <p class="text-center">Created with <span class="icon"><i class="fa fa-heart fa-lg" style="font-size:16px;color:#D64541;"></i></i></span> by <a href="#" target="_blank"> Group G7</a></p>
+  </footer>
+</body>
+</html>
