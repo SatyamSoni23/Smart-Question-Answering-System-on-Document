@@ -8,14 +8,14 @@ from cdqa.pipeline import QAPipeline
 import joblib
 
 config = {
-	"apiKey": "AIzaSyDTcnYJacmlV2w4nyZPLyVw0XnQC7MEycE",
-    "authDomain": "docyqa-8a091.firebaseapp.com",
-    "projectId": "docyqa-8a091",
+	"apiKey": "Put Your Firebase Api Key Here",
+    "authDomain": "Put Your Firebase AuthDomain Here",
+    "projectId": "Put Your Project Id Here",
 	"databaseURL" : "",
-    "storageBucket": "docyqa-8a091.appspot.com",
-    "messagingSenderId": "8713193673",
-    "appId": "1:8713193673:web:7b62098c9ce6e8aa37a518",
-    "measurementId": "G-QQZHNMPNL1"
+    "storageBucket": "Put Your Storage Bucket Link Here",
+    "messagingSenderId": "Put Your Message Sender Id Here",
+    "appId": "Put Your App Id Here",
+    "measurementId": "Put Your Measurement Id Here"
 }
 
 firebase = pyrebase.initialize_app(config)
